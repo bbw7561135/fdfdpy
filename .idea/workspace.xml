@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3899fe92-e5d3-4d3c-aa54-f4efb57c57bc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fdfdpy/eigen2D.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/test_eigen_2D.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/fdfdpy/eigen1D.py" afterPath="$PROJECT_DIR$/fdfdpy/eigen1D.py" />
-      <change beforePath="$PROJECT_DIR$/tests/testEigen1D.py" afterPath="$PROJECT_DIR$/tests/testEigen1D.py" />
+      <change beforePath="$PROJECT_DIR$/fdfdpy/eigen2D.py" afterPath="$PROJECT_DIR$/fdfdpy/eigen2D.py" />
+      <change beforePath="$PROJECT_DIR$/tests/sample_1D_complex_spectra.png" afterPath="$PROJECT_DIR$/tests/sample_1D_complex_spectra.png" />
+      <change beforePath="$PROJECT_DIR$/tests/test_eigen_2D.py" afterPath="$PROJECT_DIR$/tests/test_eigen_2D.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,18 +72,18 @@
       <file leaf-file-name="eigen1D.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fdfdpy/eigen1D.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1160">
-              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eigen2D.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="eigen2D.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fdfdpy/eigen2D.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2240">
-              <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+            <state relative-caret-position="403">
+              <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -94,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_eigen_2D.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_eigen_2D.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_eigen_2D.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-877">
-              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="960">
+              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -134,8 +131,8 @@
         <option value="$PROJECT_DIR$/fdfdpy/eigen1D.py" />
         <option value="$PROJECT_DIR$/tests/testEigen1D.py" />
         <option value="$PROJECT_DIR$/fdfdpy/solver2D.py" />
-        <option value="$PROJECT_DIR$/tests/test_eigen_2D.py" />
         <option value="$PROJECT_DIR$/fdfdpy/eigen2D.py" />
+        <option value="$PROJECT_DIR$/tests/test_eigen_2D.py" />
       </list>
     </option>
   </component>
@@ -676,29 +673,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_eigen_2D.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-877">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fdfdpy/eigen1D.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1160">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fdfdpy/eigen2D.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
-          <caret line="56" column="19" lean-forward="true" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        <state relative-caret-position="403">
+          <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_eigen_2D.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>

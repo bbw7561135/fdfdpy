@@ -25,7 +25,7 @@ eps_r[np.where(dist<cr)] = 12.25;
 
 
 wvlen_scan = np.linspace(1.01, 20, 100);
-wvlen_scan = np.logspace(np.log10(0.25), np.log10(10), 200);
+wvlen_scan = np.logspace(np.log10(0.9), np.log10(10), 400);
 
 spectra = [];
 plt.imshow(eps_r);

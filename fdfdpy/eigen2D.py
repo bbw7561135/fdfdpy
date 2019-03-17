@@ -8,7 +8,6 @@ from scipy.sparse.linalg import spsolve as bslash
 
 matrix_format=DEFAULT_MATRIX_FORMAT
 
-
 def grid_average(center_array, w):
     # computes values at cell edges
 
@@ -47,7 +46,7 @@ def eigenTE_Kx_Ky(wvlen, eps_r,  dL, Ky, num_modes = 10):
     invTepzz = sp.spdiags(1 / eps_r.flatten(), 0, M,M, format=matrix_format)
     I = sp.identity(M, format = matrix_format);
 
-    K = invTepzz@(-Dxf @ Dxb - Dyf @ Dyb - omega ** 2 *eps0 *mu0*I + Ky**2*I - 1j*((Dyf + Dyb))*Ky);
+    K = invTepzz@(-Dxf @ Dxb - Dyf @ Dyb - 1j*((Dyf + Dyb))*Ky + Ky**2*I) - omega ** 2*eps0 *mu0*I ;
     M = invTepzz;
     C = -invTepzz@(1j * (Dxf + Dxb)); #% lambda
 
