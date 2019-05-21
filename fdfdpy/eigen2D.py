@@ -7,7 +7,7 @@ from scipy.sparse.linalg import spsolve as bslash
 
 
 matrix_format=DEFAULT_MATRIX_FORMAT
-
+matrix_format = 'csc'
 def grid_average(center_array, w):
     # computes values at cell edges
 
@@ -50,8 +50,8 @@ def eigenTE_Kx_Ky(wvlen, eps_r,  dL, Ky, num_modes = 10):
     M = invTepzz;
     C = -invTepzz@(1j * (Dxf + Dxb)); #% lambda
 
-    A = sp.bmat([[M, None], [None, I]]); #A should just be the identity
-    B = sp.bmat([[C, K], [-I, None]]);
+    A = sp.bmat([[M, None], [None, I]], format = matrix_format); #A should just be the identity
+    B = sp.bmat([[C, K], [-I, None]], format = matrix_format);
 
     D= bslash(A,B);
     neff = np.sqrt(np.max(np.real(eps_r)));

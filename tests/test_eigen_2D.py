@@ -3,8 +3,8 @@ import sys
 sys.path.append('D:\\fdfdpy');
 from fdfdpy.eigen2D import *
 import matplotlib.pyplot as plt
-Nx = 20;
-Ny = 20;
+Nx = 80;
+Ny = 80;
 N = np.array([Nx, Ny]);
 
 eps_r = np.ones(N);
@@ -21,11 +21,11 @@ I,J=np.meshgrid(np.arange(eps_r.shape[0]),np.arange(eps_r.shape[1]));
 print(eps_r.shape)
 dist = np.sqrt((I-ci)**2 + (J-cj)**2);
 #print(np.where(dist<cr))
-eps_r[np.where(dist<cr)] = 12.25;
+eps_r[np.where(dist<cr)] = 6;
 
 
 wvlen_scan = np.linspace(1.01, 20, 100);
-wvlen_scan = np.logspace(np.log10(0.9), np.log10(10), 400);
+wvlen_scan = np.logspace(np.log10(0.8), np.log10(10), 600);
 
 spectra = [];
 plt.imshow(eps_r);
